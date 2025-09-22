@@ -74,7 +74,7 @@ try {
 async function sendMail(to, subject, html) {
   try {
     await resend.emails.send({
-      from: "Deep Learner Academy <no-reply@deeplearneracademy.com>",
+      from: "Deep Learner Academy <deeplearneracademy@gmail.com>",
       to,
       subject,
       html,
